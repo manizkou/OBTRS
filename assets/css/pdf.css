@@ -1,0 +1,40 @@
+.table{
+ 		height: 10px;
+ 		width: 100%;
+ 		text-align: center;
+ 		 border-spacing: 0;
+  border-collapse: collapse;
+   border: 1px solid #ddd !important;
+
+ 	}
+ 	 
+ 	
+ 		thead {
+    display: table-header-group;
+  /*  border: 1px solid #ddd !important;*/
+    background-color: grey;
+
+  
+ 	}
+ 	.table > thead > tr > th,
+.table > tbody > tr > th,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > tbody > tr > td,
+.table > tfoot > tr > td {
+  padding: 8px;
+  
+  vertical-align: top;
+  border-top: 1px solid #ddd;
+}
+.pannel{
+	height: 50px;
+	width: 100%;
+	margin-bottom: 10px;
+}
+.pannel-success{
+	background-color: #CCC2C0;
+}
+.pannel-heading{
+	font-weight: bold;
+}

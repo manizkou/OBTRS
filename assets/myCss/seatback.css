@@ -1,0 +1,86 @@
+
+   .seat input[type=checkbox] {
+      display:none;
+
+    }
+
+    .seat input[type=checkbox] + label
+    {
+     background-image: url("../img/avai.png");
+     background-repeat: no-repeat;
+     height: 30px;
+     width: 30px;
+     margin-top: 5px;
+     margin-left: 25px;
+     display:inline-block;
+   }
+   
+   .seat input[type=checkbox]:checked + label
+   {
+    background:url("../img/sel.png");
+     height: 30px;
+     width: 30px;
+    display:inline-block;
+    margin-left: 25px;
+    padding: 0 0 0 0px;
+  }
+  .seat input[type=checkbox]:disabled + label
+  {
+    background:url("../img/booked_seat.png");
+    height: 30px;
+    width: 30px;
+    display:inline-block;
+    margin-left: 25px;
+    padding: 0 0 0 0px;
+  }
+  .seat input[type=checkbox]:disabled + label:hover {
+    box-shadow: none;
+    cursor: not-allowed;
+  }
+   
+  .table-col table{
+    border-spacing: 10px;
+    box-sizing: border-box;
+    margin-top: 5px;   
+    background-color:#fafafa;
+    box-shadow: 7px 7px 20px #d8d8d8;
+    /*box-shadow: 0px 0px 50px 15px #d8d8d8;*/
+  }
+
+
+  .seat tr td{  
+      padding: 1px ;
+      margin-left: 5px;
+  }
+  
+
+  @media (max-width: 345px){
+
+    .seat input[type=checkbox] + label
+    {
+  
+     height: 30px;
+     width: 29px;
+     margin-top: 10px;
+     margin-left: 15px;
+      padding: 0 0 0 0px; 
+   }
+   
+   .seat input[type=checkbox]:checked + label
+   {
+    height: 30px;
+     width: 29px;
+     margin-top: 10px;
+     margin-left: 15px;
+      padding: 0 0 0 0px;
+  }
+  .seat input[type=checkbox]:disabled + label
+  {
+    height: 30px;
+     width: 30px;
+     margin-top: 10px;
+     margin-left: 15px;
+    padding: 0 0 0 0px;
+  }
+
+  }

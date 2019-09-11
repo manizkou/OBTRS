@@ -1,0 +1,697 @@
+	/* header.php css starts*/
+	.radoff-btn{
+		border-radius: 0px;
+	}
+	.fnavbar{
+		text-align: center !important;
+		background-color: #2fb682 !important;
+		border-color: #2fb682 !important ;
+		border-radius: 0px !important;
+		margin-bottom: 0px !important;
+
+	}
+
+	.fnavbar a{
+		color:white !important;
+	}
+
+	.fnavbar .icon-bar{
+		background-color: white !important;
+	}
+
+	.ntoggle1:hover{
+		background-color: #058453 !important ;
+	}
+
+	.ntoggle1:focus{
+		background-color: #058453 !important ;
+	}
+
+	/* header.php css end*/
+
+	/*index css starts*/
+	.padded{
+		height: 530px !important;
+		padding: 100px  0px !important;	
+		background-size: 100% 100% !important;
+		background-position: center !important;	
+	
+	}
+
+
+	@media (min-width: 768px){
+		.padded-form{
+		padding-top: 50px ;
+		padding-bottom: 110px;}
+	}
+
+	.busSearch{
+		background-color: #058453;
+		border-color:#058453; 
+		opacity: 0.8;
+	}
+
+	.busSearch:hover,.busSearch:active, .busSearch:focus{
+		background-color: #058453 !important;
+		border-color:#058453 !important; 
+		opacity: 0.9 !important;
+	}
+
+	
+	{
+		opacity: 0.9 ;	
+	}
+
+	.form-group {
+		position: relative !important;
+	} /*for placeholder position change to top left ..required*/
+
+
+	/*@media (min-width: 768px;){
+		
+		.busSearch{
+		margin-top: 10px !important;}
+	}*/
+	
+	.inl>input:focus::-webkit-input-placeholder{ 
+		  color: white !important;
+		  font-size:10px !important;
+		  position:absolute !important;
+		  top: 3px !important;
+		  left: 3px !important;
+	}
+
+
+	.inl>input:focus:-ms-input-placeholder{ 
+		  color: white !important;
+		  font-size:10px !important;
+		  position:absolute !important;
+		  top: 3px !important;
+		  left: 3px !important;
+	}
+
+	/*index css ends*/
+
+
+	/*afterSearch.php css starts */
+
+	.mod-span{
+		font-size:18px;
+	}
+
+	.row-modify {
+		background-color:#a6ecd0!important ;
+		padding: 5px !important;
+	}
+
+	.row-modify .col-md-6{
+		color: white !important;
+		font-size: 14px !important;	
+	}
+	
+
+	.col-well{
+		background-color: #a6ecd0!important;
+		border-color: white!important;
+		display: inline-block!important;
+		margin: 2px !important;
+		padding: 5px !important;
+	}
+
+	.btn-pad{
+		padding-top:5px;
+	}
+
+
+	/*@media (min-width:1240px){
+		.row-modify .col-md-6:nth-last-child(1){
+			padding-left: 260px !important;
+		}
+	*/	
+
+	
+		form > li{
+			padding:50px 0px !important;
+			font-size:15px !important;
+			list-style: none !important;
+		}
+
+		.ulist button{
+			display: block !important;
+			margin-top: 5px;
+			
+		}
+
+	/*	.active{
+			display: visible;
+		}
+	*/
+
+/*afterSearch ends*/
+ 
+ 
+ /*for footer*/
+
+ 	.foot{
+ 		background-color: #2B2B2B;
+ 		color: white;
+ 		padding: 5px;
+ 	}
+
+ 	.foot a{
+ 		display: block;
+ 		text-decoration: none;
+ 		padding: 5px;
+ 		color: white;
+ 	}
+
+ 	.foot div{
+ 		margin-top: 10px !important;
+ 	}
+
+ 	.visible-panel{
+ 		padding-top: 10px;
+ 	}
+
+ 	.visible-panel a{
+ 		text-decoration: none;
+ 		display: inline;		
+ 	}
+
+ 	.visible-panel a:hover{
+ 		border-bottom: 1px;
+ 		border-color: green;
+ 	}
+
+ 	
+
+ 	.invisible-panels li{
+ 		list-style: none;
+ 		float:left;
+ 	}
+
+
+ 	/*.invisible-panels ul{
+ 		float:left;
+ 	}*/
+
+ 	.upfoot{
+ 		/*background-color:#C7B79E;*/
+ 		padding: 20px 0 20px 0;
+ 		background-color: #496B53;
+ 		/*opacity: 0.6;*/
+ 	}
+
+ 	.upfoot i{
+ 		font-size: 18px;	
+ 		color :white;
+ 	}
+
+ /*footer css ends*/
+
+  /*seat.php css starts*/
+  	
+  
+  	/*	.ph{
+  			padding-left: 50px;
+  		}
+  */
+
+  	.seat-back{
+  		background-color:white;
+  	}
+
+  	.rating{
+  		padding:6px;
+  		background-color: #3FC299;
+  		color: white;
+  		border-radius:3px; 		
+  	}
+
+ 	.rev{
+ 		text-decoration:none;
+ 		color: grey;
+ 	}
+ 	.rev:hover{
+ 		color: #2B2B2B;
+ 		text-decoration:none;
+ 	}
+ 
+  /*seat.php css ends*/
+
+  /*plsLogin.php css starts*/
+  	
+  	.pbtn,.pbtn:hover,.pbtn:active,.pbtn:focus, .pbtn:active:focus {
+  		background-color:#2FB682;
+  		/*border-color:#2FB682;*/
+  		color:white;
+  	}
+  	.lbl label{
+  		font-size: 17px;
+  	}
+
+  	.lbl hr{
+  	height: 0.5px;
+  	background-color: white;
+  	}
+
+  	.ar{
+  		color: #A6ECD0;
+  	}
+
+  	.lbl{
+  		box-shadow: 5px 5px 10px #d8d8d8;
+  		background-color: #fafafa;
+
+  	}
+
+
+  	.ip-mod input, .ip-mod textarea:focus,.ip-mod input:focus{
+  		border:0;
+  		outline:none;
+  		box-shadow:none;
+  		background:transparent;
+  		border-bottom: 2px solid #2FB682;
+  		border-radius: 0;
+  	}
+  /*plsLogin.php css ends*/
+
+  /* passenger info icon css begins */
+  	.user{
+		height: 40px;
+		width: 40px;
+		border-radius: 200px;
+		background-color: #6EC7B4;
+		margin-left: 5px;
+	}
+	.fauser{
+		margin-left: -5px !important;
+		margin-top: 5px !important;
+	}
+	.fabus{
+		margin-left: -5px !important;
+		margin-top: 15px !important;
+	}
+	.enve{
+		height: 40px;
+		width: 40px;
+		border-radius: 200px;
+		background-color:#f1af43;
+		margin-left: 5px;
+	}
+	.faenve{
+		margin-left: -9px !important;
+		margin-top: 5px !important;
+		color:#fff;
+	}
+	  .search-box{
+        width: 300px;
+        position: relative;
+        display: inline-block;
+        font-size: 14px;
+    }
+    .search-box input[type="text"]{
+        height: 32px;
+        padding: 5px 10px;
+        border: 1px solid #CCCCCC;
+        font-size: 14px;
+    }
+    .result{
+        position: absolute;        
+        z-index: 999;
+        top: 100%;
+        left: 0;
+    }
+    .search-box input[type="text"], .result{
+        width: 100%;
+        box-sizing: border-box;
+    }
+    /* Formatting result items */
+    .result p{
+        margin: 0;
+        padding: 7px 10px;
+        border: 1px solid #CCCCCC;
+        border-top: none;
+        cursor: pointer;
+         background: #f2f2f2;
+    }
+    .result p:hover{
+       background:#cce6ff;
+    }
+    /*Payment Page CSS*/
+    .box2{
+		position: relative;
+		min-height: 350px;
+		background-color: #eee;
+		 box-shadow: 5px 5px 5px #888888;
+		 margin-bottom: 50px;
+		 top: 20px;
+		/* left: 20px*/;
+		 
+
+		}
+		.heading{
+			background-color:#52c496;
+			height: 50px;
+			text-align: center;
+			color: white;
+			margin-top: 0px;
+			padding-top: 10px;
+			/*border-radius: 10px;*/
+		}
+		.pannel{
+			background-color: transparent !important;
+		}
+				/*samrat keep it in index.css*/
+
+	     /*myTrip.php initiated*/
+	     .tab-container{
+	     	min-height: 450px;
+	     	margin: 40px 40px 5px 40px;
+	     	/*background-color: #f6f6f6;*/
+	     	max-width: auto;
+	     }
+
+	     /* Style the tab */
+	     div.tab {
+	     	overflow: hidden;
+	     	/*border: 1px solid white;*/
+	     	/*background-color: #f1f1f1;*/
+	     	background-color: white;
+
+	     }
+
+	     /* Style the buttons inside the tab */
+	     div.tab button {
+	     	background-color: #e9e9e9;
+	     	color: #6d6d6d;
+	     	float: left;
+	     	border: 1px solid white;
+	     	/*border-right: 3px;*/
+	     	border-bottom: none;
+	     	border-radius: 4px 4px 0px 0px;
+	     	outline: none;
+	     	cursor: pointer;
+	     	padding: 10px 30px;
+	     	transition: 0.3s;
+	     }
+
+	     /* Change background color of buttons on hover */
+	     div.tab button:hover {
+	     	background-color: #f6f6f6;
+	     }
+
+	     /* Create an active/current tablink class */
+	     div.tab button.active {
+	     	background-color: #f6f6f6;
+	     }
+
+	     /* Style the tab content */
+	     .tabcontent {
+	     	/*border-radius: 5px;*/
+	     	background-color: #f6f6f6;
+	     	display: none;
+	     	padding:40px  12px 6px 12px;
+	     	border: 1px solid white;
+	     	border-top: none;
+	     	min-height: 450px;
+	     	/*color:#6d6d6d; */
+	     }
+
+	     .tabcontent a{
+	     	text-decoration: none;
+	     	color: inherit; ;
+	     }
+
+	     .content-myTrips, .contentProfile ,.contentChangePassword{
+	     	font-size: medium;
+	     	margin: 10px 10px 0px;
+	     	background-color: white;
+	     	padding: 20px;
+	     	border-radius: 5px;
+	     	box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+	     }
+
+	     
+	  
+
+		 /*.content-myTrips:enabled{
+	     	border-radius: 0px;
+	     }*/
+
+	     .content-collapsed{
+	     	padding-top: 10px; 
+	     }
+	     .content-myTrips span{
+	     	color: #959595;
+	     	font-size: small;
+	     }
+	     .content-myTrips .arw{
+	     	color: inherit;
+	     	font-size: inherit;
+	     	padding: 5px 0px 0px 10px; 
+	     }
+
+	     .option-btn{
+	     	position: relative;
+	     	width: 5px;
+	     }
+
+	     .option-btn .dots{
+	     	width: 5px;
+	     	height: 5px;
+	     	border-radius: 50%;
+	     	background-color: #AEAEAE;
+	     	margin: 4px 0;
+	     }
+
+	     .option-btn:hover ul{
+	     	padding: 10px 20px;
+	     	visibility: visible;
+	     	opacity: 1;
+	     }
+
+
+	     .optionsList-dots{
+	     	z-index: 100;
+	     	width: 215px;
+	     	padding: 20px 30px;
+	     	visibility: hidden;
+	     	position: absolute;
+	     	top:20px;
+	     	/*bottom: -219px;*/
+	     	left: 0;
+	     	list-style: none;
+	     	right: 0;
+	     	background: white;
+	     	border: 1px solid #eeeeee;
+	     	border-radius: 5px;
+	     	-webkit-transition: 0.2s ease-out;
+	     	-moz-transition: 0.2s ease-out;
+	     	-o-transition: 0.2s ease-out;
+	     	transition: 0.2s ease-out;
+	     	transition-property: opacity, padding, visibility;
+	     	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2)
+	     }
+
+
+	     .optionsList-dots li{
+	     	
+	     	display: block;
+	     	position: relative;
+	     	padding: 10px 0px 5px 0px;	     	
+	     	border-bottom: 1px solid #AEAEAE;
+	     }
+ 
+	     .optionsList-dots li a{
+	     	text-decoration:none ;
+	     	color: #959595;
+	     }
+
+	     .optionsList-dots>li>a:hover
+	     {
+	     	color: black;
+	     }
+	     
+	     .hiddenDetail{
+	     	display: none;
+	     }
+
+	     .spaceSpan{
+	     	padding-left: 40px;
+	     }
+
+	    .busSeat{
+	    	height: 40px;
+	    	width: 40px;
+	    	color: grey;
+	    }
+	    /*myTrip.php terminated*/
+	      /*for rating*/
+	    
+
+			.wrapper {
+			 
+			  display: inline-block;
+			  border: none;
+			  font-size: 14px;
+			 
+			}
+
+			.wrapper input {
+			  border: 0;
+			  width: 1px;
+			  height: 1px;
+			  overflow: hidden;
+			 
+			 /* clip: rect(1px 1px 1px 1px);
+			  clip: rect(1px, 1px, 1px, 1px);*/
+			  opacity: 0;
+			}
+
+			.wrapper label {
+			  
+			  float: right;
+			  color: #C8C8C8;
+			}
+
+			.wrapper label:before {
+			  margin: 2px 15px 2px 0px;
+			  content: "\f005";
+			  font-family: FontAwesome;
+			  display: inline-block;
+			  font-size: 1.5em;
+			  color: #ccc;
+			  -webkit-user-select: none;
+			  -moz-user-select: none;
+			  user-select: none;
+			}
+
+			.wrapper input:checked ~ label:before {
+			  color: #FFC107;
+			}
+
+			.wrapper input:checked ~ label {
+			  color: white;
+			}
+
+			.wrapper label:hover ~ label:before {
+			  color: #ffdb70;
+			}
+
+			.wrapper label:hover ~ label {
+			  color: white;
+			}
+
+			.wrapper label:hover:before {
+			  color: #FFC107;
+			}
+
+			.wrapper label:hover {
+			  color: white;
+			}
+
+	    /*rate and review end*/
+
+
+	    /*snackbar bottom notify begins*/
+	   #snackbar {
+    visibility: visible;
+    min-width: 300px;
+    margin-left: 370px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 2px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    bottom: 60px;
+    font-size: 17px;
+    -webkit-animation: fadein 4s;
+    animation: fadein 4s;
+    animation-duration:3s; 
+}
+
+
+@-webkit-keyframes fadein {
+    from {bottom: 0; opacity: 0;} 
+    to {bottom: 60px; opacity: 1;}
+}
+
+@keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 60px; opacity: 1;}
+}
+.finish{
+	width: 270px;
+    height: 45px;
+    background-color: #d84e55;
+    font-family: Lato;
+    font-size: 16.8px;
+    font-weight: bold;
+    border: none;
+    color: #ffffff;
+}
+/*Snackbar Finish*/
+
+/*review and comment css begins*/
+#reviewModal {
+		    display: none; /* Hidden by default */
+		 /* Stay in place */
+		 /* Sit on top */
+		    left:20%;
+		    top:20%;
+		    width:60%; /* Full width */
+		    height:70%; /* Full height */
+		    overflow:auto; /* Enable scroll if needed */
+		    background-color:#fff;
+		     /* Fallback color */
+		     /* Black w/ opacity */
+		   
+		}
+		/*finish review*/
+
+
+		/*seat legends begins*/
+		.seat-list{
+			margin-top: 10px;
+		}
+		.avai-layout{
+			border: 1px solid #a7a9ac;
+			height: 17px;
+			background-color: #5BD461;
+			margin-right: 10px;
+			
+		}
+		.legend-label {
+			float: left;
+			text-transform: capitalize;
+			line-height: 17px;
+			font-weight: 300;
+			margin-left: 20px;
+		}
+		.booked-layout{
+			height: 17px;
+			background-color: #C4F3C5;
+			width: 20px;
+			
+			
+		}
+		.sel-layout{
+			border: 1px solid #a7a9ac;
+			height: 17px;
+			background-color:#DAF939;
+			width: 20px;
+			
+		}
+		.avai-seat,.book-seat,.sel-seat {
+			display: inline-block;
+			width: 5%;
+    		float: left;
+    		padding: 5px 0;
+		}
+/*Seat legend finishes*/
+
+

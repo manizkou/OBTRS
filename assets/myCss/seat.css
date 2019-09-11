@@ -1,0 +1,114 @@
+
+.seat input[type=checkbox] {
+  display:none;
+
+}
+.seat label{
+ /* transform: rotate(90deg);*/
+  font-size: 10px !important;
+  position: relative;
+  padding-top: 5px;
+  padding-left: 5px;
+}
+
+.seat input[type=checkbox] + label
+{
+ background-image: url("../img/a.jpeg");
+/* transform:rotate(90deg);*/
+ background-repeat: no-repeat;
+ height: 25px;
+ width: 25px;
+ margin-top: 20px;
+ margin-left: 10px;
+ display:inline-block;
+ cursor: pointer;
+}
+
+.seat input[type=checkbox]:checked + label
+{
+  background:url("../img/b.jpeg");
+  /*transform:rotate(90deg);*/
+  background-repeat: no-repeat;
+  height: 25px;
+  width: 25px;
+  display:inline-block;
+  margin-left: 10px;
+  padding-top: 5px;
+  padding-left: 5px;
+  cursor: pointer;
+}
+.seat input[type=checkbox]:disabled + label
+{
+  background:url("../img/c.jpg");
+ /* transform:rotate(90deg);*/
+  height: 25px;
+  width: 25px;
+  display:inline-block;
+}
+.seat input[type=checkbox]:disabled + label:hover {
+  box-shadow: none;
+  cursor: not-allowed;
+}
+
+.table-col table{
+  border-spacing: 10px;
+  box-sizing: border-box;
+  margin-top: 5px;   
+  background-color: white;
+}
+
+
+.seat tr td{  
+  padding: 1px ;
+  margin-left: 5px;
+}
+
+
+@media (max-width: 345px){
+
+  .seat input[type=checkbox] + label
+  {
+
+   height: 30px;
+   width: 29px;
+   margin-top: 10px;
+   margin-left: 15px;
+   padding: 0 0 0 0px; 
+ }
+
+ .seat input[type=checkbox]:checked + label
+ {
+  height: 30px;
+  width: 29px;
+  margin-top: 10px;
+  margin-left: 15px;
+  padding: 0 0 0 0px;
+}
+.seat input[type=checkbox]:disabled + label
+{
+  height: 30px;
+  width: 30px;
+  margin-top: 10px;
+  margin-left: 15px;
+  padding: 0 0 0 0px;
+}
+
+}
+.card
+{
+  background-color:#F4F7F8;
+}
+.proceed{
+  height:250px;
+  width:300px;
+  background-color: white;
+  border-radius: 2px;
+  margin-top: 30px;
+  font-size: 18px !important;
+  padding-top: 5px !important;
+}
+.proceed-btn{
+  margin-top: 40px;
+  margin-right: 20px !important;
+
+}
